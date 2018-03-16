@@ -4,7 +4,7 @@ Distributed compressed cache
 Sorry to dissapoint, but this is not working project yet.
 Although if you are interested, lets work towards making this.
 
-## Uniquie features
+## Unique features
 
 - Saves data in highly compressed form (Using roaring bitmap)
 - Usually residing on client host (JSR 107 compliant)
