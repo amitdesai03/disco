@@ -1,5 +1,5 @@
 # disco
-Distributed compressed cache
+Distributed compressed cache key value store
 
 Sorry to dissapoint, but this is not working project yet.
 Although if you are interested, lets work towards making this.
@@ -11,6 +11,8 @@ Although if you are interested, lets work towards making this.
 - P2P Incremental replication/sync (Using gossip)
 - Leader election on network partition (Using zookeeper/raft)
 - Distribution based on consistent hashing or sharding
+- Memory mapped to disk on host machine for large dataset
+- Catch up feature on new machine spin up
 
 ## Where will it be used?
 
