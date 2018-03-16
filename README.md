@@ -9,7 +9,8 @@ Although if you are interested, lets work towards making this.
 - Saves data in highly compressed form (Using roaring bitmap)
 - Usually residing on client host (JSR 107 compliant)
 - P2P Incremental replication/sync (Using gossip)
-- Leader election on network partition (Using zookeeper)
+- Leader election on network partition (Using zookeeper/raft)
+- Distribution based on consistent hashing or sharding
 
 ## Where will it be used?
 
